@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Lesson 4</title>
+  <meta name="author" content="[Yukti Solanki]">
+</head>
+  <body>
+  <h1>Comments & Attributes</h1>
+  <h3>(Lesson 4)</h3>
+  <b>Comments:</b>
+<p>Comments are text hidden within an HTML document. In order to create an HTML comment, you must use the characters “&lt;!--” before the comment text and “--&gt;” after it.</p>
+  <ins>Example:</ins>
+<pre>
+  &lt;!-- This is a single line comment --&gt;
+  &lt;!-- This is 
+  a multiple line
+  Comment --&gt;
+  &lt;!-- You can disable elements 
+  &lt;h1&gt;Hello World&lt;/h1&gt; by enclosing them in a comment --&gt;
+</pre>
+  <b>Attributes</b>
+<p>Attributes are codes that appear within a tag that modify it in some way. The general syntax for an attribute is:</p> 
+<pre>&lt;tagName attributeName=”value”&gt;content &lt;/tagName&gt;</pre>
+<ins>Example:</ins>
+<pre>
+  &lt;img src=”happyface.jpg”&gt;
+  &lt;p style=“color:red”&gt;This paragraph will have red text&lt;/p&gt;
+</pre>
+  <b>Links:</b>
+<p>Links use the anchor or &lt;a&gt; element to make a hyperlink to another page or to another location on the same page. It is an inline element. To locate the link, you need the href attribute. The general syntax for a link is:</p>
+  <pre>&lt;a href=”pathToFile”LinkText&lt;/a&gt;</pre>
+<ins>Example:</ins>
+  <pre>
+  Absolute or external link: 
+  &lt;a href=”https://google.com”&gt;Google&lt;/a&gt;
+    
+  Relative or internal link:
+    
+  &lt;a href=”/index. html”&gt;HomePage&lt;/a&gt;</pre>
+<b>More link attributes:</b>
+<p>Download: let’s the user download a file.<br>
+Target: specifies a specific place within the page the link opens.<br>
+   <ins>Some targets:</ins>
+<ul>
+<li>_blank: opens in a new window/tab</li>
+<li>_top: opens at the top of the page</li>
+<li>_self: opens within the same iframe</li>
+<li>_parent: opens within the parent of the current frame</li>
+  </ul>
+ <ins>Example</ins>
+  <pre>
+    &lt;a download=“fileName”&gt;...
+      &lt;a href=”URL” target=”_blank”&gt;...
+  </pre>
+  <b>Embedding Images</b>
+  <p>Images are embedded on a web page using the &lt;img&gt; element. It is an empty element (no trailing tag) and works inline. To locate the image, you must use the src attribute. You must also use the alt attribute to describe the image for screen readers or if the image will not load.</p>
+  <ins>Example</ins>
+  <pre>
+    Local image: 
+    &lt;img src=”happyface.jpg”
+    alt=”Smiley Face”&gt;
+
+    Remote image: 
+
+    &lt;img src=”https://ex.com/hf.jpg”
+    alt=”Smiley Face”&gt;   
+  </pre>
+<b>Sizing images</b>
+<p>You can control the size of images by using either width or height attributes, or both. The actual dimensions are specified in pixels. If you only specify the height or width, the image with scale proportionally. If you specify both, the image will fix itself to the dimensions you chose.</p>
+<ins>Example:</ins>
+<pre>
+&lt;img src=”file” 
+width=”200”&gt;
+</pre>
+  <p><a href= "../../EvenFiles/EvenPages/page6.html">Next Lesson</a></p>
+  <p><a href="../../index.html">Home Page</a></p>
+  </body>
+</html>

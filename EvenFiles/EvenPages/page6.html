@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Lesson 5</title>
+  <meta name="author" content="[Yukti Solanki]">
+</head>
+  <body>
+  <h1>Tables</h1>
+  <h3>(Lesson 5)</h3>
+<b>Tables:</b>
+<p>Tables allow web developers to arrange data into a grid-like structure. Aside from tables with grid borders, you can also create tables without borders, and position content without it looking like a grid.</p> 
+<ins>The essential elements for tables are:</ins>
+    <ul>
+      <li>Table: creates the table </li>
+      <li> tr: creates a row</li>
+      <li>th: creates a heading cell </li>
+      <li>td: creates a data cell </li>
+    </ul>
+ <ins>HTML structure of a table:</ins>
+<pre>
+    &lt;able
+      &lt;tr&gt;
+        &lt;th>Heading 1&lt;/th&gt;
+        &lt;th>Heading 2&lt;/th&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;Data 1&lt;/td&gt;
+        &lt;td&gt;Data 2&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/table&gt; 
+</pre>
+<b>Table Borders:</b>
+<p>In HTML5 we use CSS to create borders.</p>
+<pre>
+  Table, th, td {
+    border: 1px solid black; 
+  } 
+</pre>
+<b>Table and Cell Sizes</b> 
+<p>By default, a table will size itself to fit the contents of the cells within in. But you can force a table (or the cells within it) to have specific sizes. You can specify pixels (px) or percentage of the width/height of the page.</p>
+    <p>If you want to control size;</p>
+<ins>Example:</ins>
+    <pre>
+    table {
+      width:100%; 
+      height:500px; 
+    }
+    th,td {
+      width:100px; 
+      height:50px; 
+    }
+    </pre><p>This should go in the style section of your page</p>
+<b>Colspan and Rowspan</b>
+  <p>Sometimes you want a cell to break across more than one row or column (or both). In this case you use the rowspan or colspan attributes</p>
+    <ins>Example:</ins>
+    <pre>
+    &lt;th colspan=”2”&gt;
+    &lt;td rowspan=”2”&gt;
+    </pre>
+<p><a href="../../OddFiles/OddPages/page7.html">Next Lesson</a></p>
+<p><a href="../../index.html">Home Page</a></p>
+  </body>
+</html>

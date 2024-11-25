@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Lesson 8</title>
+  <meta name="author" content="[Yukti Solanki]">
+</head>
+  <body>
+    <h1>Entities</h1>
+    <h3>(Lesson 8)</h3>
+<b>Character Encoding Schemes</b>
+<p><em>ASCII (American Standard Code for Information Interchange)</em> - The first and most widely used character encoding system before Unicode.<br>
+<em>EBCDIC (Extended Binary Coded Decimal Interchange Code)</em> - Used by IBM mainframe computers until IBM converted to ASCII in the 1980s.<br>
+<em>ANSI (American national Standards Institute) or Windows - 1252</em> - An extended version of ASCII developed by ANSI and used in Windows until Unicode.<br> 
+<em>ISO-8859</em> - developed by the International organization for Standardization, it was a variety of formats for different languages that existed before Unicode. </p><br>
+<b> Utilizing Unicode </b>
+<p>Unicode has several character sets. The most popular for web browsers is Unicode Text Format 8-bit, or UTF-8. To force browser compatibility, for your web page, you use the following code in the head section of your page: &lt;meta charset=”utf-8”&gt;</p>  
+<b>HTML entities</b><br>
+<p>Several characters are considered reserved for use by HTML. Other characters are difficult to reproduce on the keyboard, or are things like emojis that can’t be produced by the keyboard without a special app. To display these characters as text or emojis, you can write the following code:</p> 
+<pre>
+    (nickname method): & + nickname +; 
+    Example: &lt; becomes &amp;lt; 
+    (number method): & + # +Unicode number +; 
+    Example: &lt; becomes &amp;#60;
+               </pre>
+<ins>Essential Entities:</ins>
+<pre>
+Entity: &lt;	
+Nickname: &amp;lt;	
+Number: &amp;#60;
+
+Entity: >
+Nickname: &amp;gt;	
+Number: &amp;#62;
+  
+Entity: &amp;
+Nickname:&amp;amp; 	
+Number: &amp;#38;
+
+
+Entity: Non-breaking space	
+Nickname: &amp;nbsp;	
+Number: &amp;#160;
+</pre>
+<p><a href="../../EvenFiles/EvenPages/page10.html">Next Lesson</a></p>
+    <p><a href="../../index.html">Home Page</a></p>
+  </body>
+</html>
